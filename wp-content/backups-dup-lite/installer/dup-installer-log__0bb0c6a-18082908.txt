@@ -1,0 +1,741 @@
+********************************************************************************
+* DUPLICATOR-LITE: Install-Log
+* STEP-1 START @ 09:13:45
+* VERSION: 1.4.4
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.28                                |7.4.28
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2022-04-18 08:29:08
+WP VERSION__________: 5.9.3
+DUP VERSION_________: 1.4.4
+DB__________________: 10.2.43
+DB TABLES___________: 69
+DB ROWS_____________: 6,669
+DB FILE SIZE________: 44.89MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.28 | SAPI: litespeed
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: LiteSpeed
+DOC ROOT____________: "/home/papj4853/public_html"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "https://papeindo.org/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/home/papj4853/public_html/new_papeindo_[HASH]_20220418082908_archive.zip"
+SIZE________________: 152.91MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/home/papj4853/public_html/new_papeindo_[HASH]_20220418082908_archive.zip"
+SIZE________________: 152.91MBFile timestamp set to Current: 2022-04-18 09:13:49
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 09:13:49 - RUNTIME: 4.5687 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 09:14:47
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.2.43 -- Build Server: 10.2.43
+FILE SIZE:	dup-database__[HASH].sql (22.95MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/home/papj4853/public_html/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	7915
+
+ri_actionscheduler_actions: (16)
+ri_actionscheduler_claims: (0)
+ri_actionscheduler_groups: (2)
+ri_actionscheduler_logs: (48)
+ri_commentmeta: (0)
+ri_comments: (1)
+ri_duplicator_packages: (0)
+ri_e_events: (0)
+ri_etn_events: (0)
+ri_etn_trans_meta: (0)
+ri_links: (0)
+ri_options: (501)
+ri_postmeta: (5847)
+ri_posts: (731)
+ri_revslider_css: (109)
+ri_revslider_css_bkp: (47)
+ri_revslider_layer_animations: (0)
+ri_revslider_layer_animations_bkp: (0)
+ri_revslider_navigations: (3)
+ri_revslider_navigations_bkp: (0)
+ri_revslider_sliders: (8)
+ri_revslider_sliders_bkp: (0)
+ri_revslider_slides: (13)
+ri_revslider_slides_bkp: (0)
+ri_revslider_static_slides: (8)
+ri_revslider_static_slides_bkp: (0)
+ri_sbi_feed_caches: (0)
+ri_sbi_feeds: (0)
+ri_sbi_instagram_feed_locator: (0)
+ri_sbi_instagram_feeds_posts: (0)
+ri_sbi_instagram_posts: (0)
+ri_sbi_sources: (0)
+ri_term_relationships: (182)
+ri_term_taxonomy: (67)
+ri_termmeta: (11)
+ri_terms: (67)
+ri_usermeta: (30)
+ri_users: (1)
+ri_wc_admin_note_actions: (49)
+ri_wc_admin_notes: (43)
+ri_wc_category_lookup: (7)
+ri_wc_customer_lookup: (0)
+ri_wc_download_log: (0)
+ri_wc_order_coupon_lookup: (0)
+ri_wc_order_product_lookup: (0)
+ri_wc_order_stats: (0)
+ri_wc_order_tax_lookup: (0)
+ri_wc_product_attributes_lookup: (0)
+ri_wc_product_meta_lookup: (0)
+ri_wc_rate_limits: (0)
+ri_wc_reserved_stock: (0)
+ri_wc_tax_rate_classes: (2)
+ri_wc_webhooks: (0)
+ri_woocommerce_api_keys: (0)
+ri_woocommerce_attribute_taxonomies: (0)
+ri_woocommerce_downloadable_product_permissions: (0)
+ri_woocommerce_log: (0)
+ri_woocommerce_order_itemmeta: (0)
+ri_woocommerce_order_items: (0)
+ri_woocommerce_payment_tokenmeta: (0)
+ri_woocommerce_payment_tokens: (0)
+ri_woocommerce_sessions: (1)
+ri_woocommerce_shipping_zone_locations: (0)
+ri_woocommerce_shipping_zone_methods: (0)
+ri_woocommerce_shipping_zones: (0)
+ri_woocommerce_tax_rate_locations: (0)
+ri_woocommerce_tax_rates: (0)
+ri_yith_wcwl: (0)
+ri_yith_wcwl_lists: (0)
+Removed '49' cache/transient rows
+
+INSERT DATA RUNTIME: 2.2088 sec.
+STEP-2 COMPLETE @ 09:14:50 - RUNTIME: 2.2346 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 09:14:57
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Perkumpulan Ahli Perdagangan Ekspor Impor Indonesia (PAPEINDO)"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/papj4853/public_html/website"
+path_new______________: "/home/papj4853/public_html"
+siteurl_______________: "https://papeindo.org"
+url_old_______________: "https://website.papeindo.org"
+url_new_______________: "https://papeindo.org"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "ri_actionscheduler_actions"______________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/papj4853/public_html/website" ==============> "/home/papj4853/public_html"
+	SEARCH  2:"\/home\/papj4853\/public_html\/website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  3:"%2Fhome%2Fpapj4853%2Fpublic_html%2Fwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  4:"\home\papj4853\public_html\website" ==============> "/home/papj4853/public_html"
+	SEARCH  5:"\\home\\papj4853\\public_html\\website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  6:"%5Chome%5Cpapj4853%5Cpublic_html%5Cwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  7:"//website.papeindo.org" ==========================> "//papeindo.org"
+	SEARCH  8:"\/\/website.papeindo.org" ========================> "\/\/papeindo.org"
+	SEARCH  9:"%2F%2Fwebsite.papeindo.org" ======================> "%2F%2Fpapeindo.org"
+	SEARCH 10:"http://papeindo.org" =============================> "https://papeindo.org"
+	SEARCH 11:"http:\/\/papeindo.org" ===========================> "https:\/\/papeindo.org"
+	SEARCH 12:"http%3A%2F%2Fpapeindo.org" =======================> "https%3A%2F%2Fpapeindo.org"
+
+EVALUATE TABLE: "ri_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_actionscheduler_groups"_______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/papj4853/public_html/website" ==============> "/home/papj4853/public_html"
+	SEARCH  2:"\/home\/papj4853\/public_html\/website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  3:"%2Fhome%2Fpapj4853%2Fpublic_html%2Fwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  4:"\home\papj4853\public_html\website" ==============> "/home/papj4853/public_html"
+	SEARCH  5:"\\home\\papj4853\\public_html\\website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  6:"%5Chome%5Cpapj4853%5Cpublic_html%5Cwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  7:"//website.papeindo.org" ==========================> "//papeindo.org"
+	SEARCH  8:"\/\/website.papeindo.org" ========================> "\/\/papeindo.org"
+	SEARCH  9:"%2F%2Fwebsite.papeindo.org" ======================> "%2F%2Fpapeindo.org"
+	SEARCH 10:"http://papeindo.org" =============================> "https://papeindo.org"
+	SEARCH 11:"http:\/\/papeindo.org" ===========================> "https:\/\/papeindo.org"
+	SEARCH 12:"http%3A%2F%2Fpapeindo.org" =======================> "https%3A%2F%2Fpapeindo.org"
+
+EVALUATE TABLE: "ri_actionscheduler_logs"_________________________[ROWS:    48][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/papj4853/public_html/website" ==============> "/home/papj4853/public_html"
+	SEARCH  2:"\/home\/papj4853\/public_html\/website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  3:"%2Fhome%2Fpapj4853%2Fpublic_html%2Fwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  4:"\home\papj4853\public_html\website" ==============> "/home/papj4853/public_html"
+	SEARCH  5:"\\home\\papj4853\\public_html\\website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  6:"%5Chome%5Cpapj4853%5Cpublic_html%5Cwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  7:"//website.papeindo.org" ==========================> "//papeindo.org"
+	SEARCH  8:"\/\/website.papeindo.org" ========================> "\/\/papeindo.org"
+	SEARCH  9:"%2F%2Fwebsite.papeindo.org" ======================> "%2F%2Fpapeindo.org"
+	SEARCH 10:"http://papeindo.org" =============================> "https://papeindo.org"
+	SEARCH 11:"http:\/\/papeindo.org" ===========================> "https:\/\/papeindo.org"
+	SEARCH 12:"http%3A%2F%2Fpapeindo.org" =======================> "https%3A%2F%2Fpapeindo.org"
+
+EVALUATE TABLE: "ri_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/papj4853/public_html/website" ==============> "/home/papj4853/public_html"
+	SEARCH  2:"\/home\/papj4853\/public_html\/website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  3:"%2Fhome%2Fpapj4853%2Fpublic_html%2Fwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  4:"\home\papj4853\public_html\website" ==============> "/home/papj4853/public_html"
+	SEARCH  5:"\\home\\papj4853\\public_html\\website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  6:"%5Chome%5Cpapj4853%5Cpublic_html%5Cwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  7:"//website.papeindo.org" ==========================> "//papeindo.org"
+	SEARCH  8:"\/\/website.papeindo.org" ========================> "\/\/papeindo.org"
+	SEARCH  9:"%2F%2Fwebsite.papeindo.org" ======================> "%2F%2Fpapeindo.org"
+	SEARCH 10:"http://papeindo.org" =============================> "https://papeindo.org"
+	SEARCH 11:"http:\/\/papeindo.org" ===========================> "https:\/\/papeindo.org"
+	SEARCH 12:"http%3A%2F%2Fpapeindo.org" =======================> "https%3A%2F%2Fpapeindo.org"
+
+EVALUATE TABLE: "ri_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_e_events"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_etn_events"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_etn_trans_meta"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_options"______________________________________[ROWS:   501][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/papj4853/public_html/website" ==============> "/home/papj4853/public_html"
+	SEARCH  2:"\/home\/papj4853\/public_html\/website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  3:"%2Fhome%2Fpapj4853%2Fpublic_html%2Fwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  4:"\home\papj4853\public_html\website" ==============> "/home/papj4853/public_html"
+	SEARCH  5:"\\home\\papj4853\\public_html\\website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  6:"%5Chome%5Cpapj4853%5Cpublic_html%5Cwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  7:"//website.papeindo.org" ==========================> "//papeindo.org"
+	SEARCH  8:"\/\/website.papeindo.org" ========================> "\/\/papeindo.org"
+	SEARCH  9:"%2F%2Fwebsite.papeindo.org" ======================> "%2F%2Fpapeindo.org"
+	SEARCH 10:"http://papeindo.org" =============================> "https://papeindo.org"
+	SEARCH 11:"http:\/\/papeindo.org" ===========================> "https:\/\/papeindo.org"
+	SEARCH 12:"http%3A%2F%2Fpapeindo.org" =======================> "https%3A%2F%2Fpapeindo.org"
+
+EVALUATE TABLE: "ri_postmeta"_____________________________________[ROWS:  5847][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/papj4853/public_html/website" ==============> "/home/papj4853/public_html"
+	SEARCH  2:"\/home\/papj4853\/public_html\/website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  3:"%2Fhome%2Fpapj4853%2Fpublic_html%2Fwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  4:"\home\papj4853\public_html\website" ==============> "/home/papj4853/public_html"
+	SEARCH  5:"\\home\\papj4853\\public_html\\website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  6:"%5Chome%5Cpapj4853%5Cpublic_html%5Cwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  7:"//website.papeindo.org" ==========================> "//papeindo.org"
+	SEARCH  8:"\/\/website.papeindo.org" ========================> "\/\/papeindo.org"
+	SEARCH  9:"%2F%2Fwebsite.papeindo.org" ======================> "%2F%2Fpapeindo.org"
+	SEARCH 10:"http://papeindo.org" =============================> "https://papeindo.org"
+	SEARCH 11:"http:\/\/papeindo.org" ===========================> "https:\/\/papeindo.org"
+	SEARCH 12:"http%3A%2F%2Fpapeindo.org" =======================> "https%3A%2F%2Fpapeindo.org"
+
+EVALUATE TABLE: "ri_posts"________________________________________[ROWS:   731][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/papj4853/public_html/website" ==============> "/home/papj4853/public_html"
+	SEARCH  2:"\/home\/papj4853\/public_html\/website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  3:"%2Fhome%2Fpapj4853%2Fpublic_html%2Fwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  4:"\home\papj4853\public_html\website" ==============> "/home/papj4853/public_html"
+	SEARCH  5:"\\home\\papj4853\\public_html\\website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  6:"%5Chome%5Cpapj4853%5Cpublic_html%5Cwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  7:"//website.papeindo.org" ==========================> "//papeindo.org"
+	SEARCH  8:"\/\/website.papeindo.org" ========================> "\/\/papeindo.org"
+	SEARCH  9:"%2F%2Fwebsite.papeindo.org" ======================> "%2F%2Fpapeindo.org"
+	SEARCH 10:"http://papeindo.org" =============================> "https://papeindo.org"
+	SEARCH 11:"http:\/\/papeindo.org" ===========================> "https:\/\/papeindo.org"
+	SEARCH 12:"http%3A%2F%2Fpapeindo.org" =======================> "https%3A%2F%2Fpapeindo.org"
+
+EVALUATE TABLE: "ri_revslider_css"________________________________[ROWS:   109][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/papj4853/public_html/website" ==============> "/home/papj4853/public_html"
+	SEARCH  2:"\/home\/papj4853\/public_html\/website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  3:"%2Fhome%2Fpapj4853%2Fpublic_html%2Fwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  4:"\home\papj4853\public_html\website" ==============> "/home/papj4853/public_html"
+	SEARCH  5:"\\home\\papj4853\\public_html\\website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  6:"%5Chome%5Cpapj4853%5Cpublic_html%5Cwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  7:"//website.papeindo.org" ==========================> "//papeindo.org"
+	SEARCH  8:"\/\/website.papeindo.org" ========================> "\/\/papeindo.org"
+	SEARCH  9:"%2F%2Fwebsite.papeindo.org" ======================> "%2F%2Fpapeindo.org"
+	SEARCH 10:"http://papeindo.org" =============================> "https://papeindo.org"
+	SEARCH 11:"http:\/\/papeindo.org" ===========================> "https:\/\/papeindo.org"
+	SEARCH 12:"http%3A%2F%2Fpapeindo.org" =======================> "https%3A%2F%2Fpapeindo.org"
+
+EVALUATE TABLE: "ri_revslider_css_bkp"____________________________[ROWS:    47][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/papj4853/public_html/website" ==============> "/home/papj4853/public_html"
+	SEARCH  2:"\/home\/papj4853\/public_html\/website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  3:"%2Fhome%2Fpapj4853%2Fpublic_html%2Fwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  4:"\home\papj4853\public_html\website" ==============> "/home/papj4853/public_html"
+	SEARCH  5:"\\home\\papj4853\\public_html\\website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  6:"%5Chome%5Cpapj4853%5Cpublic_html%5Cwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  7:"//website.papeindo.org" ==========================> "//papeindo.org"
+	SEARCH  8:"\/\/website.papeindo.org" ========================> "\/\/papeindo.org"
+	SEARCH  9:"%2F%2Fwebsite.papeindo.org" ======================> "%2F%2Fpapeindo.org"
+	SEARCH 10:"http://papeindo.org" =============================> "https://papeindo.org"
+	SEARCH 11:"http:\/\/papeindo.org" ===========================> "https:\/\/papeindo.org"
+	SEARCH 12:"http%3A%2F%2Fpapeindo.org" =======================> "https%3A%2F%2Fpapeindo.org"
+
+EVALUATE TABLE: "ri_revslider_layer_animations"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_revslider_layer_animations_bkp"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_revslider_navigations"________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/papj4853/public_html/website" ==============> "/home/papj4853/public_html"
+	SEARCH  2:"\/home\/papj4853\/public_html\/website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  3:"%2Fhome%2Fpapj4853%2Fpublic_html%2Fwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  4:"\home\papj4853\public_html\website" ==============> "/home/papj4853/public_html"
+	SEARCH  5:"\\home\\papj4853\\public_html\\website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  6:"%5Chome%5Cpapj4853%5Cpublic_html%5Cwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  7:"//website.papeindo.org" ==========================> "//papeindo.org"
+	SEARCH  8:"\/\/website.papeindo.org" ========================> "\/\/papeindo.org"
+	SEARCH  9:"%2F%2Fwebsite.papeindo.org" ======================> "%2F%2Fpapeindo.org"
+	SEARCH 10:"http://papeindo.org" =============================> "https://papeindo.org"
+	SEARCH 11:"http:\/\/papeindo.org" ===========================> "https:\/\/papeindo.org"
+	SEARCH 12:"http%3A%2F%2Fpapeindo.org" =======================> "https%3A%2F%2Fpapeindo.org"
+
+EVALUATE TABLE: "ri_revslider_navigations_bkp"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_revslider_sliders"____________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/papj4853/public_html/website" ==============> "/home/papj4853/public_html"
+	SEARCH  2:"\/home\/papj4853\/public_html\/website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  3:"%2Fhome%2Fpapj4853%2Fpublic_html%2Fwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  4:"\home\papj4853\public_html\website" ==============> "/home/papj4853/public_html"
+	SEARCH  5:"\\home\\papj4853\\public_html\\website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  6:"%5Chome%5Cpapj4853%5Cpublic_html%5Cwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  7:"//website.papeindo.org" ==========================> "//papeindo.org"
+	SEARCH  8:"\/\/website.papeindo.org" ========================> "\/\/papeindo.org"
+	SEARCH  9:"%2F%2Fwebsite.papeindo.org" ======================> "%2F%2Fpapeindo.org"
+	SEARCH 10:"http://papeindo.org" =============================> "https://papeindo.org"
+	SEARCH 11:"http:\/\/papeindo.org" ===========================> "https:\/\/papeindo.org"
+	SEARCH 12:"http%3A%2F%2Fpapeindo.org" =======================> "https%3A%2F%2Fpapeindo.org"
+
+EVALUATE TABLE: "ri_revslider_sliders_bkp"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_revslider_slides"_____________________________[ROWS:    13][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/papj4853/public_html/website" ==============> "/home/papj4853/public_html"
+	SEARCH  2:"\/home\/papj4853\/public_html\/website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  3:"%2Fhome%2Fpapj4853%2Fpublic_html%2Fwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  4:"\home\papj4853\public_html\website" ==============> "/home/papj4853/public_html"
+	SEARCH  5:"\\home\\papj4853\\public_html\\website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  6:"%5Chome%5Cpapj4853%5Cpublic_html%5Cwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  7:"//website.papeindo.org" ==========================> "//papeindo.org"
+	SEARCH  8:"\/\/website.papeindo.org" ========================> "\/\/papeindo.org"
+	SEARCH  9:"%2F%2Fwebsite.papeindo.org" ======================> "%2F%2Fpapeindo.org"
+	SEARCH 10:"http://papeindo.org" =============================> "https://papeindo.org"
+	SEARCH 11:"http:\/\/papeindo.org" ===========================> "https:\/\/papeindo.org"
+	SEARCH 12:"http%3A%2F%2Fpapeindo.org" =======================> "https%3A%2F%2Fpapeindo.org"
+
+EVALUATE TABLE: "ri_revslider_slides_bkp"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_revslider_static_slides"______________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/papj4853/public_html/website" ==============> "/home/papj4853/public_html"
+	SEARCH  2:"\/home\/papj4853\/public_html\/website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  3:"%2Fhome%2Fpapj4853%2Fpublic_html%2Fwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  4:"\home\papj4853\public_html\website" ==============> "/home/papj4853/public_html"
+	SEARCH  5:"\\home\\papj4853\\public_html\\website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  6:"%5Chome%5Cpapj4853%5Cpublic_html%5Cwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  7:"//website.papeindo.org" ==========================> "//papeindo.org"
+	SEARCH  8:"\/\/website.papeindo.org" ========================> "\/\/papeindo.org"
+	SEARCH  9:"%2F%2Fwebsite.papeindo.org" ======================> "%2F%2Fpapeindo.org"
+	SEARCH 10:"http://papeindo.org" =============================> "https://papeindo.org"
+	SEARCH 11:"http:\/\/papeindo.org" ===========================> "https:\/\/papeindo.org"
+	SEARCH 12:"http%3A%2F%2Fpapeindo.org" =======================> "https%3A%2F%2Fpapeindo.org"
+
+EVALUATE TABLE: "ri_revslider_static_slides_bkp"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_sbi_feed_caches"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_sbi_feeds"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_sbi_instagram_feed_locator"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_sbi_instagram_feeds_posts"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_sbi_instagram_posts"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_sbi_sources"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_term_relationships"___________________________[ROWS:   182][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/papj4853/public_html/website" ==============> "/home/papj4853/public_html"
+	SEARCH  2:"\/home\/papj4853\/public_html\/website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  3:"%2Fhome%2Fpapj4853%2Fpublic_html%2Fwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  4:"\home\papj4853\public_html\website" ==============> "/home/papj4853/public_html"
+	SEARCH  5:"\\home\\papj4853\\public_html\\website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  6:"%5Chome%5Cpapj4853%5Cpublic_html%5Cwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  7:"//website.papeindo.org" ==========================> "//papeindo.org"
+	SEARCH  8:"\/\/website.papeindo.org" ========================> "\/\/papeindo.org"
+	SEARCH  9:"%2F%2Fwebsite.papeindo.org" ======================> "%2F%2Fpapeindo.org"
+	SEARCH 10:"http://papeindo.org" =============================> "https://papeindo.org"
+	SEARCH 11:"http:\/\/papeindo.org" ===========================> "https:\/\/papeindo.org"
+	SEARCH 12:"http%3A%2F%2Fpapeindo.org" =======================> "https%3A%2F%2Fpapeindo.org"
+
+EVALUATE TABLE: "ri_term_taxonomy"________________________________[ROWS:    67][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/papj4853/public_html/website" ==============> "/home/papj4853/public_html"
+	SEARCH  2:"\/home\/papj4853\/public_html\/website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  3:"%2Fhome%2Fpapj4853%2Fpublic_html%2Fwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  4:"\home\papj4853\public_html\website" ==============> "/home/papj4853/public_html"
+	SEARCH  5:"\\home\\papj4853\\public_html\\website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  6:"%5Chome%5Cpapj4853%5Cpublic_html%5Cwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  7:"//website.papeindo.org" ==========================> "//papeindo.org"
+	SEARCH  8:"\/\/website.papeindo.org" ========================> "\/\/papeindo.org"
+	SEARCH  9:"%2F%2Fwebsite.papeindo.org" ======================> "%2F%2Fpapeindo.org"
+	SEARCH 10:"http://papeindo.org" =============================> "https://papeindo.org"
+	SEARCH 11:"http:\/\/papeindo.org" ===========================> "https:\/\/papeindo.org"
+	SEARCH 12:"http%3A%2F%2Fpapeindo.org" =======================> "https%3A%2F%2Fpapeindo.org"
+
+EVALUATE TABLE: "ri_termmeta"_____________________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/papj4853/public_html/website" ==============> "/home/papj4853/public_html"
+	SEARCH  2:"\/home\/papj4853\/public_html\/website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  3:"%2Fhome%2Fpapj4853%2Fpublic_html%2Fwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  4:"\home\papj4853\public_html\website" ==============> "/home/papj4853/public_html"
+	SEARCH  5:"\\home\\papj4853\\public_html\\website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  6:"%5Chome%5Cpapj4853%5Cpublic_html%5Cwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  7:"//website.papeindo.org" ==========================> "//papeindo.org"
+	SEARCH  8:"\/\/website.papeindo.org" ========================> "\/\/papeindo.org"
+	SEARCH  9:"%2F%2Fwebsite.papeindo.org" ======================> "%2F%2Fpapeindo.org"
+	SEARCH 10:"http://papeindo.org" =============================> "https://papeindo.org"
+	SEARCH 11:"http:\/\/papeindo.org" ===========================> "https:\/\/papeindo.org"
+	SEARCH 12:"http%3A%2F%2Fpapeindo.org" =======================> "https%3A%2F%2Fpapeindo.org"
+
+EVALUATE TABLE: "ri_terms"________________________________________[ROWS:    67][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/papj4853/public_html/website" ==============> "/home/papj4853/public_html"
+	SEARCH  2:"\/home\/papj4853\/public_html\/website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  3:"%2Fhome%2Fpapj4853%2Fpublic_html%2Fwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  4:"\home\papj4853\public_html\website" ==============> "/home/papj4853/public_html"
+	SEARCH  5:"\\home\\papj4853\\public_html\\website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  6:"%5Chome%5Cpapj4853%5Cpublic_html%5Cwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  7:"//website.papeindo.org" ==========================> "//papeindo.org"
+	SEARCH  8:"\/\/website.papeindo.org" ========================> "\/\/papeindo.org"
+	SEARCH  9:"%2F%2Fwebsite.papeindo.org" ======================> "%2F%2Fpapeindo.org"
+	SEARCH 10:"http://papeindo.org" =============================> "https://papeindo.org"
+	SEARCH 11:"http:\/\/papeindo.org" ===========================> "https:\/\/papeindo.org"
+	SEARCH 12:"http%3A%2F%2Fpapeindo.org" =======================> "https%3A%2F%2Fpapeindo.org"
+
+EVALUATE TABLE: "ri_usermeta"_____________________________________[ROWS:    30][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/papj4853/public_html/website" ==============> "/home/papj4853/public_html"
+	SEARCH  2:"\/home\/papj4853\/public_html\/website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  3:"%2Fhome%2Fpapj4853%2Fpublic_html%2Fwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  4:"\home\papj4853\public_html\website" ==============> "/home/papj4853/public_html"
+	SEARCH  5:"\\home\\papj4853\\public_html\\website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  6:"%5Chome%5Cpapj4853%5Cpublic_html%5Cwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  7:"//website.papeindo.org" ==========================> "//papeindo.org"
+	SEARCH  8:"\/\/website.papeindo.org" ========================> "\/\/papeindo.org"
+	SEARCH  9:"%2F%2Fwebsite.papeindo.org" ======================> "%2F%2Fpapeindo.org"
+	SEARCH 10:"http://papeindo.org" =============================> "https://papeindo.org"
+	SEARCH 11:"http:\/\/papeindo.org" ===========================> "https:\/\/papeindo.org"
+	SEARCH 12:"http%3A%2F%2Fpapeindo.org" =======================> "https%3A%2F%2Fpapeindo.org"
+
+EVALUATE TABLE: "ri_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/papj4853/public_html/website" ==============> "/home/papj4853/public_html"
+	SEARCH  2:"\/home\/papj4853\/public_html\/website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  3:"%2Fhome%2Fpapj4853%2Fpublic_html%2Fwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  4:"\home\papj4853\public_html\website" ==============> "/home/papj4853/public_html"
+	SEARCH  5:"\\home\\papj4853\\public_html\\website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  6:"%5Chome%5Cpapj4853%5Cpublic_html%5Cwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  7:"//website.papeindo.org" ==========================> "//papeindo.org"
+	SEARCH  8:"\/\/website.papeindo.org" ========================> "\/\/papeindo.org"
+	SEARCH  9:"%2F%2Fwebsite.papeindo.org" ======================> "%2F%2Fpapeindo.org"
+	SEARCH 10:"http://papeindo.org" =============================> "https://papeindo.org"
+	SEARCH 11:"http:\/\/papeindo.org" ===========================> "https:\/\/papeindo.org"
+	SEARCH 12:"http%3A%2F%2Fpapeindo.org" =======================> "https%3A%2F%2Fpapeindo.org"
+
+EVALUATE TABLE: "ri_wc_admin_note_actions"________________________[ROWS:    49][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/papj4853/public_html/website" ==============> "/home/papj4853/public_html"
+	SEARCH  2:"\/home\/papj4853\/public_html\/website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  3:"%2Fhome%2Fpapj4853%2Fpublic_html%2Fwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  4:"\home\papj4853\public_html\website" ==============> "/home/papj4853/public_html"
+	SEARCH  5:"\\home\\papj4853\\public_html\\website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  6:"%5Chome%5Cpapj4853%5Cpublic_html%5Cwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  7:"//website.papeindo.org" ==========================> "//papeindo.org"
+	SEARCH  8:"\/\/website.papeindo.org" ========================> "\/\/papeindo.org"
+	SEARCH  9:"%2F%2Fwebsite.papeindo.org" ======================> "%2F%2Fpapeindo.org"
+	SEARCH 10:"http://papeindo.org" =============================> "https://papeindo.org"
+	SEARCH 11:"http:\/\/papeindo.org" ===========================> "https:\/\/papeindo.org"
+	SEARCH 12:"http%3A%2F%2Fpapeindo.org" =======================> "https%3A%2F%2Fpapeindo.org"
+
+EVALUATE TABLE: "ri_wc_admin_notes"_______________________________[ROWS:    43][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/papj4853/public_html/website" ==============> "/home/papj4853/public_html"
+	SEARCH  2:"\/home\/papj4853\/public_html\/website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  3:"%2Fhome%2Fpapj4853%2Fpublic_html%2Fwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  4:"\home\papj4853\public_html\website" ==============> "/home/papj4853/public_html"
+	SEARCH  5:"\\home\\papj4853\\public_html\\website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  6:"%5Chome%5Cpapj4853%5Cpublic_html%5Cwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  7:"//website.papeindo.org" ==========================> "//papeindo.org"
+	SEARCH  8:"\/\/website.papeindo.org" ========================> "\/\/papeindo.org"
+	SEARCH  9:"%2F%2Fwebsite.papeindo.org" ======================> "%2F%2Fpapeindo.org"
+	SEARCH 10:"http://papeindo.org" =============================> "https://papeindo.org"
+	SEARCH 11:"http:\/\/papeindo.org" ===========================> "https:\/\/papeindo.org"
+	SEARCH 12:"http%3A%2F%2Fpapeindo.org" =======================> "https%3A%2F%2Fpapeindo.org"
+
+EVALUATE TABLE: "ri_wc_category_lookup"___________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/papj4853/public_html/website" ==============> "/home/papj4853/public_html"
+	SEARCH  2:"\/home\/papj4853\/public_html\/website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  3:"%2Fhome%2Fpapj4853%2Fpublic_html%2Fwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  4:"\home\papj4853\public_html\website" ==============> "/home/papj4853/public_html"
+	SEARCH  5:"\\home\\papj4853\\public_html\\website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  6:"%5Chome%5Cpapj4853%5Cpublic_html%5Cwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  7:"//website.papeindo.org" ==========================> "//papeindo.org"
+	SEARCH  8:"\/\/website.papeindo.org" ========================> "\/\/papeindo.org"
+	SEARCH  9:"%2F%2Fwebsite.papeindo.org" ======================> "%2F%2Fpapeindo.org"
+	SEARCH 10:"http://papeindo.org" =============================> "https://papeindo.org"
+	SEARCH 11:"http:\/\/papeindo.org" ===========================> "https:\/\/papeindo.org"
+	SEARCH 12:"http%3A%2F%2Fpapeindo.org" =======================> "https%3A%2F%2Fpapeindo.org"
+
+EVALUATE TABLE: "ri_wc_customer_lookup"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_wc_order_product_lookup"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_wc_order_stats"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_wc_order_tax_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_wc_product_attributes_lookup"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_wc_product_meta_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_wc_rate_limits"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_wc_reserved_stock"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/papj4853/public_html/website" ==============> "/home/papj4853/public_html"
+	SEARCH  2:"\/home\/papj4853\/public_html\/website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  3:"%2Fhome%2Fpapj4853%2Fpublic_html%2Fwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  4:"\home\papj4853\public_html\website" ==============> "/home/papj4853/public_html"
+	SEARCH  5:"\\home\\papj4853\\public_html\\website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  6:"%5Chome%5Cpapj4853%5Cpublic_html%5Cwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  7:"//website.papeindo.org" ==========================> "//papeindo.org"
+	SEARCH  8:"\/\/website.papeindo.org" ========================> "\/\/papeindo.org"
+	SEARCH  9:"%2F%2Fwebsite.papeindo.org" ======================> "%2F%2Fpapeindo.org"
+	SEARCH 10:"http://papeindo.org" =============================> "https://papeindo.org"
+	SEARCH 11:"http:\/\/papeindo.org" ===========================> "https:\/\/papeindo.org"
+	SEARCH 12:"http%3A%2F%2Fpapeindo.org" =======================> "https%3A%2F%2Fpapeindo.org"
+
+EVALUATE TABLE: "ri_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_woocommerce_attribute_taxonomies"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_woocommerce_order_itemmeta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_woocommerce_order_items"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_woocommerce_sessions"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/papj4853/public_html/website" ==============> "/home/papj4853/public_html"
+	SEARCH  2:"\/home\/papj4853\/public_html\/website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  3:"%2Fhome%2Fpapj4853%2Fpublic_html%2Fwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  4:"\home\papj4853\public_html\website" ==============> "/home/papj4853/public_html"
+	SEARCH  5:"\\home\\papj4853\\public_html\\website" ==========> "\/home\/papj4853\/public_html"
+	SEARCH  6:"%5Chome%5Cpapj4853%5Cpublic_html%5Cwebsite" ======> "%2Fhome%2Fpapj4853%2Fpublic_html"
+	SEARCH  7:"//website.papeindo.org" ==========================> "//papeindo.org"
+	SEARCH  8:"\/\/website.papeindo.org" ========================> "\/\/papeindo.org"
+	SEARCH  9:"%2F%2Fwebsite.papeindo.org" ======================> "%2F%2Fpapeindo.org"
+	SEARCH 10:"http://papeindo.org" =============================> "https://papeindo.org"
+	SEARCH 11:"http:\/\/papeindo.org" ===========================> "https:\/\/papeindo.org"
+	SEARCH 12:"http%3A%2F%2Fpapeindo.org" =======================> "https%3A%2F%2Fpapeindo.org"
+
+EVALUATE TABLE: "ri_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_yith_wcwl"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ri_yith_wcwl_lists"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:69 	|	 Rows:7794 	|	 Cells:46430 
+UPDATED:	Tables:7 	|	 Rows:890 	|	 Cells:1152 
+ERRORS:		0 
+RUNTIME:	1.078500 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Auto Deactivated plugins list here: Array
+(
+    [0] => simple-google-recaptcha/simple-google-recaptcha.php
+    [1] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 09:14:58 - RUNTIME: 1.1006 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

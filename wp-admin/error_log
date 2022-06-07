@@ -1,0 +1,1 @@
+[18-Apr-2022 09:36:50 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 4096 bytes) in /home/papj4853/public_html/wp-includes/media.php on line 3669
